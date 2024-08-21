@@ -92,8 +92,10 @@
     }
   </script>
   
-  <div class="min-h-screen p-6 bg-gray-100">
+  <div class="min-h-screen p-6 bg-cyan-100">
     <h1 class="text-3xl font-bold text-center mb-8">ACT Students' Digital Innovations Showcase</h1>
+    <h2 class="text-2xl text-center font-bold mb-4">Technical Achievements</h2>
+
   
     <div class="flex justify-center mb-8">
       <select class="p-2 rounded bg-white shadow" bind:value={selectedProject} on:change={() => selectProject(selectedProject)}>
@@ -106,7 +108,7 @@
   
     {#if selectedProject}
       <div class="flex flex-col items-center">
-        <h2 class="text-2xl font-semibold mb-4">Technical Achievements</h2>
+        <h2 class="text-2xl font-semibold mb-4">Award Badges for {selectedProject}</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-screen-lg">
           <!-- Digital Media -->
           <div>

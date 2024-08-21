@@ -46,8 +46,9 @@
     }
   </script>
   
-  <div class="min-h-screen p-6 bg-gray-100">
+  <div class="min-h-screen p-6 bg-blue-100">
     <h1 class="text-3xl font-bold text-center mb-8">ACT Students' Digital Innovations Showcase</h1>
+    <h2 class="text-2xl text-center font-bold mb-4">Project Awards</h2>
   
     <div class="flex justify-center mb-8">
       <select class="p-2 rounded bg-white shadow" bind:value={selectedProject} on:change={() => selectProject(selectedProject)}>
